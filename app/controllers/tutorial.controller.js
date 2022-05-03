@@ -15,6 +15,7 @@ exports.create = (req, res) => {
     email: req.body.email,
     phone: req.body.phone,
     message: req.body.message,
+    about: req.body.about,
     published: req.body.published ? req.body.published : false
   });
 

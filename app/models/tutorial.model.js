@@ -5,6 +5,7 @@ module.exports = mongoose => {
       email: String,
       phone:Number,
       message:String,
+      about:String,
       published: Boolean
     }
   );
