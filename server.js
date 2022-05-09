@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://www.webtriggers.tech","http://13.232.127.213"
+  origin: "http://13.232.127.213"//"https://www.webtriggers.tech"
 };
 
 app.use(cors(corsOptions));
